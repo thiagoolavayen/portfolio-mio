@@ -1,0 +1,16 @@
+TRABAJO PRÁCTICO INTEGRADOR - DESARROLLO WEB
+MI PORTFOLIO WEB PROFESIONAL EN GITHUB PAGES
+
+1. Nombre y apellido del alumno:
+Thiago Lavayen
+
+2. URL pública del Portfolio Web (GitHub Pages):
+[COMPLETAR DESPUÉS DE PUBLICAR EN GITHUB PAGES]
+
+3. URL del repositorio en GitHub (código fuente):
+[COMPLETAR DESPUÉS DE CREAR EL REPOSITORIO]
+
+4. Breve comentario sobre la estética y la interactividad:
+Elegí una estética moderna, con una combinación de colores oscuros, verde menta y violeta. Usé tarjetas, sombras y un diseño que se adapta tanto a computadora como a celular. Con JavaScript agregué un botón para cambiar entre modo claro y oscuro, un menú desplegable para celulares, animaciones al recorrer la página y un botón para copiar el enlace del portfolio cuando esté publicado. Mi proyecto principal es ChangaYa, una aplicación en desarrollo para conectar clientes con trabajadores.
+
+Nota: la imagen de ChangaYa dentro del portfolio es una representación conceptual y no una captura real de la app.
