@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Portfolio de Thiago Lavayen: desarrollo web, aprendizaje y ChangaYa, su proyecto final de tecnología.">
+  <title>Thiago Lavayen | Portfolio de desarrollo</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header" id="inicio">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand" aria-label="Thiago Lavayen, volver al inicio"><span class="brand-square">TL<span class="brand-dot">.</span></span><span class="brand-text">THIAGO<br>LAVAYEN</span></a>
+      <nav class="desktop-nav" aria-label="Navegación principal">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <div class="header-actions">
+        <button type="button" class="theme-toggle icon-button" id="themeToggle" aria-label="Cambiar a modo claro" title="Cambiar tema">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.98 13A9 9 0 0 1 11 3.02 9 9 0 1 0 20.98 13Z"/></svg>
+        </button>
+        <button type="button" class="menu-toggle icon-button" id="menuToggle" aria-label="Abrir menú" aria-controls="mobileNav" aria-expanded="false">
+          <svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Navegación móvil" hidden>
+      <a href="#sobre-mi">Sobre mí</a><a href="#proyectos">Proyectos</a><a href="#habilidades">Habilidades</a><a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero section container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="status-dot" aria-hidden="true"></span> ESTUDIANTE · DESARROLLO DE SOFTWARE</span>
+        <p class="hero-intro">¡Hola! Soy Thiago Lavayen <span aria-hidden="true">👋</span></p>
+        <h1 id="hero-title">Aprendo.<br><span class="highlight-text">Creo.</span><br>Construyo.</h1>
+        <p class="hero-description">Me gusta transformar ideas en proyectos tecnológicos. Este es mi espacio para mostrar lo que estoy aprendiendo y el trabajo que desarrollé durante el año.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#proyectos">Explorar proyectos <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-secondary" href="#sobre-mi">Conocerme más <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-bottom"><span class="hero-line"></span><span>HTML / CSS / JAVASCRIPT / MÁS</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Ilustración de editor de código y herramientas de desarrollo">
+        <div class="orb orb-one" aria-hidden="true"></div><div class="orb orb-two" aria-hidden="true"></div>
+        <div class="editor-window">
+          <div class="editor-head"><div class="window-dots"><i></i><i></i><i></i></div><span>thiago.js</span><div class="editor-head-icon">✳</div></div>
+          <div class="editor-body"><div class="line-numbers" aria-hidden="true">01<br>02<br>03<br>04<br>05<br>06<br>07<br>08</div>
+            <div class="code-lines"><div><span class="code-purple">const</span> <span class="code-white">desarrollador</span> = {</div><div class="indent"><span class="code-blue">nombre</span>: <span class="code-green">'Thiago Lavayen'</span>,</div><div class="indent"><span class="code-blue">proyecto</span>: <span class="code-green">'ChangaYa'</span>,</div><div class="indent"><span class="code-blue">objetivo</span>: <span class="code-green">'seguir aprendiendo'</span>,</div><div class="indent"><span class="code-blue">actitud</span>: <span class="code-green">'crear soluciones'</span></div><div>};</div><div class="code-comment">// Bienvenido a mi portfolio</div><div class="code-terminal">_</div></div>
+          </div>
+          <div class="editor-footer"><span class="editor-footer-status">●</span> Listo para programar <span>UTF-8 · JavaScript</span></div>
+        </div>
+        <div class="floating-tag floating-one"><span>✦</span> creatividad</div>
+        <div class="floating-tag floating-two"><span>&lt;/&gt;</span> desarrollo web</div>
+      </div>
+      <div class="hero-scroll" aria-hidden="true">DESLIZÁ PARA EXPLORAR <span>↓</span></div>
+    </section>
+
+    <section class="section about-section" id="sobre-mi" aria-labelledby="about-title">
+      <div class="container section-grid">
+        <div class="section-label"><span>01 / SOBRE MÍ</span></div>
+        <div class="section-main reveal"><h2 id="about-title">Curiosidad por la tecnología.<br><em>Ganas de seguir creando.</em></h2><p>Mi nombre es <strong>Thiago Lavayen</strong> y soy estudiante. Me interesa la programación porque permite resolver problemas de formas creativas y construir herramientas que pueden servirle a otras personas.</p><p>Durante el año trabajé en proyectos de desarrollo, y uno de los más importantes fue <strong>ChangaYa</strong>, una propuesta de aplicación para conectar personas que necesitan ayuda con trabajadores que ofrecen sus servicios.</p><div class="about-note"><span class="asterisk">✳</span><span>Mi objetivo es seguir aprendiendo, mejorar mi código y animarme a desarrollar proyectos cada vez más completos.</span></div></div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="proyectos" aria-labelledby="projects-title">
+      <div class="container"><div class="section-head"><div><div class="section-label">02 / MIS PROYECTOS</div><h2 id="projects-title">De la idea <em>al código.</em></h2></div><p>Estos son dos trabajos que forman parte de mi aprendizaje.</p></div>
+        <article class="featured-card reveal" aria-labelledby="changaya-title">
+          <div class="featured-details"><span class="project-kicker"><span class="tiny-line"></span> PROYECTO FINAL · DESTACADO</span><div class="project-logo"><span class="bolt">↗</span> Changa<span>Ya</span></div><h3 id="changaya-title">Una solución para encontrar ayuda cerca tuyo.</h3><p>ChangaYa es una aplicación en desarrollo que busca conectar clientes con trabajadores para realizar tareas o servicios. La idea es que pedir una changa sea un proceso simple, claro y organizado.</p><div class="tags"><span>React Native</span><span>Expo</span><span>Node.js</span><span>Express</span><span>PostgreSQL</span></div><a href="#como-funciona" class="text-link">Conocé cómo funciona <span aria-hidden="true">↗</span></a></div>
+          <div class="featured-graphic"><img src="assets/changaya-preview.svg" alt="Ilustración conceptual de ChangaYa con una pantalla de solicitud de servicios" width="620" height="550" loading="lazy"><div class="graphic-caption">VISTA CONCEPTUAL DEL PROYECTO</div></div>
+        </article>
+        <div class="other-projects">
+          <article class="mini-project reveal"><div class="mini-top"><span>PROYECTO WEB</span><span aria-hidden="true">↗</span></div><div class="mini-art web-art" aria-hidden="true"><span class="web-mark">TL<span>.</span></span><div class="mini-code">&lt;html&gt;<br><span>&nbsp;&nbsp;&lt;mi-portfolio /&gt;</span><br>&lt;/html&gt;</div></div><div class="mini-bottom"><h3>Mi Portfolio Personal</h3><p>Este mismo sitio: creado con HTML, CSS y JavaScript para presentarme y mostrar mis proyectos.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div></article>
+          <article class="mini-project process-card reveal" id="como-funciona"><div class="mini-top"><span>CHANGAYA · IDEA PRINCIPAL</span><span aria-hidden="true">✳</span></div><h3>¿Cómo funciona ChangaYa?</h3><div class="steps"><div><span class="step-num">01</span><p>El cliente explica qué trabajo necesita realizar.</p></div><div><span class="step-num">02</span><p>El trabajador recibe la solicitud y propone una tarifa.</p></div><div><span class="step-num">03</span><p>El cliente confirma y el proceso sigue dentro de la aplicación.</p></div></div><p class="process-note">El proyecto también plantea un sistema de pago simulado para mostrar cómo se organizarían las operaciones sin pagos por fuera de la app.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="habilidades" aria-labelledby="skills-title"><div class="container section-grid"><div class="section-label">03 / HERRAMIENTAS</div><div class="section-main reveal"><h2 id="skills-title">Tecnologías que <em>estoy explorando.</em></h2><p>Estas son algunas de las herramientas que utilicé en mis trabajos y que quiero seguir practicando.</p><div class="skill-grid"><div class="skill"><span class="skill-icon html-icon">&lt;/&gt;</span><div><strong>HTML</strong><small>Estructura web</small></div></div><div class="skill"><span class="skill-icon css-icon">#</span><div><strong>CSS</strong><small>Diseño y estilos</small></div></div><div class="skill"><span class="skill-icon js-icon">JS</span><div><strong>JavaScript</strong><small>Interactividad</small></div></div><div class="skill"><span class="skill-icon rn-icon">⚛</span><div><strong>React Native / Expo</strong><small>Aplicaciones móviles</small></div></div><div class="skill"><span class="skill-icon node-icon">⬡</span><div><strong>Node.js / Express</strong><small>Backend</small></div></div><div class="skill"><span class="skill-icon sql-icon">▤</span><div><strong>PostgreSQL</strong><small>Bases de datos</small></div></div></div></div></div></section>
+
+    <section class="section contact-section" id="contacto" aria-labelledby="contact-title"><div class="container reveal"><div class="contact-inner"><span class="contact-eyebrow">04 / SIGAMOS CONSTRUYENDO</span><h2 id="contact-title">Esto recién <em>empieza.</em></h2><p>Este portfolio es una muestra de mi recorrido como estudiante. Mi próximo paso es seguir sumando proyectos, experiencias y cosas nuevas.</p><button class="btn btn-dark" type="button" id="shareButton">Copiar enlace del portfolio <span aria-hidden="true">↗</span></button><div class="contact-signature">THIAGO LAVAYEN <span>✳</span> PORTFOLIO 2026</div></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a href="#inicio" class="footer-brand">TL<span>.</span></a><p>Hecho con HTML, CSS, JavaScript y muchas ganas de aprender.</p><span>© <span id="year">2026</span> Thiago Lavayen</span></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
